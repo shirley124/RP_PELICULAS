@@ -24,6 +24,7 @@ namespace RP_PELICULAS.Pages.Peliculas
         public async Task OnGetAsync()
         {
             Pelicula = await _context.Pelicula.ToListAsync();
+            
         }
     }
 }
