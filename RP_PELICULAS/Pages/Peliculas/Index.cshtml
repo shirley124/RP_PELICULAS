@@ -8,6 +8,17 @@
 
 <h1>Index</h1>
 
+
+<form>
+    <p>
+        FILTRAR POR TITULO: <input type="text" asp-for="searchString" />
+        <input type="submit" value="FILTRAR" />
+        <select asp-for="generoPelicula" asp-items="Model.genero">
+            <option value="">ALL</option>
+        </select>
+    </p> 
+</form>
+
 <p>
     <a asp-page="Create">Create New</a>
 </p>
