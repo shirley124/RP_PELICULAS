@@ -36,7 +36,7 @@ namespace RP_PELICULAS
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-		var defaultCulture = new CultureInfo("es-es");
+		    var defaultCulture = new CultureInfo("es-es");
             var localizationOptions = new RequestLocalizationOptions
             {
                 DefaultRequestCulture = new RequestCulture(defaultCulture),
